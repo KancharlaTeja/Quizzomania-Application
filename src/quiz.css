@@ -1,0 +1,35 @@
+.question-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    border: 2px solid #ccc; /* Add border to question container */
+    padding: 0; /* Remove padding */
+    width: 66%;
+    margin: 20px auto 0; /* Add gap at the top */
+    background-color: aqua;
+    border-color: hotpink;
+  }
+  
+
+  .options-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .options-container label {
+    margin-bottom: 10px;
+  }
+  
+  .options-container input[type="radio"] {
+    margin-right: 10px;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
